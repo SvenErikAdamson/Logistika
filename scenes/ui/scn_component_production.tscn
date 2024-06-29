@@ -1,0 +1,198 @@
+[gd_scene load_steps=2 format=3 uid="uid://5wbkxr1xriiv"]
+
+[ext_resource type="Texture2D" uid="uid://b5uasomm1hvw4" path="res://assets/sprites/icons/resources/supplies.png" id="1_34vfa"]
+
+[node name="ComponentProduction" type="PanelContainer"]
+custom_minimum_size = Vector2(256, 80)
+size_flags_horizontal = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 2
+theme_override_constants/margin_top = 2
+theme_override_constants/margin_right = 2
+theme_override_constants/margin_bottom = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="TopPanel" type="PanelContainer" parent="MarginContainer/VBoxContainer"]
+self_modulate = Color(0.529313, 0.718201, 0.348244, 1)
+custom_minimum_size = Vector2(0, 16)
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/TopPanel"]
+layout_mode = 2
+text = "Supplies"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(128, 0)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer/PanelContainer"]
+layout_mode = 2
+texture = ExtResource("1_34vfa")
+stretch_mode = 4
+
+[node name="Workshops" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops"]
+layout_mode = 2
+theme_override_constants/h_separation = 1
+theme_override_constants/v_separation = 1
+columns = 7
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer2"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer3" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer3"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer4" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer4"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer5" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer5"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer6" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer6"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer7" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer7"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer8" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer8"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer9" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer9"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer10" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer10"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer11" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer11"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer12" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer12"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer13" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer13"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer14" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer14"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer15" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer15"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer16" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer16"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer17" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer17"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer18" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer18"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer19" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer19"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer20" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer20"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer21" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/Workshops/GridContainer/MarginContainer21"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
